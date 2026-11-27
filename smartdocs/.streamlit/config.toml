@@ -1,0 +1,10 @@
+[server]
+maxUploadSize = 50          # MB; mantenha igual a smartdocs.config.MAX_UPLOAD_MB
+enableXsrfProtection = true
+showEmailPrompt = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"

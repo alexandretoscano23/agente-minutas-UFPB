@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28" role="img" aria-label="Espaço reservado para o logotipo institucional">
+  <rect x="1.5" y="1.5" width="25" height="25" rx="7" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 2.4"/>
+  <circle cx="14" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+  <path d="M8.5 20.5c1-2.6 3-3.8 5.5-3.8s4.5 1.2 5.5 3.8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+</svg>
