@@ -1,19 +1,79 @@
-# Ambiente virtual e segredos
+# ==============================
+# Ambientes virtuais
+# ==============================
 .venv/
 venv/
+env/
+smartdocs/.venv/
+
+# ==============================
+# Variáveis de ambiente e segredos
+# ==============================
 .env
 .env.*
+!.env.example
+
 .streamlit/secrets.toml
 
+# ==============================
 # Python
+# ==============================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# Editor e sistema
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/credentials.toml
+
+# ==============================
+# Editores e IDEs
+# ==============================
 .vscode/
 .idea/
-.DS_Store
+*.swp
+*.swo
+*~
 
-# Minutas reais (podem ser sigilosas)
+# ==============================
+# Sistema operacional
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Logs e arquivos temporários
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Documentos potencialmente sigilosos
+# ==============================
 *.docx
+*.doc
+*.odt
+*.pdf
+
+# ==============================
+# Dados e arquivos locais
+# ==============================
+data/
+uploads/
+temp/
+tmp/
+
+# ==============================
+# Arquivos gerados por ferramentas
+# ==============================
+*.egg-info/
+dist/
+build/
