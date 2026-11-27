@@ -1,4 +1,4 @@
-# SmartDocs: entrada de minutas para a revisão restrita à Classe A
+# MinutaFacil: entrada de minutas para a revisão restrita à Classe A
 
 Primeira parte do projeto de automação da revisão técnico-normativa de minutas de resolução da UFPB.
 Esta entrega implementa **somente** a tela inicial e o fluxo de recebimento de documentos.
